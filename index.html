@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preetham Shetty — MERN Stack Developer & CS Student at MITE, Mangalore.">
+  <title>Preetham Shetty — MERN Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="loader">
+    <div class="l-logo">PS<em style="color:var(--accent)">.</em></div>
+    <div class="l-bar">
+      <div class="l-fill" id="lbfill"></div>
+    </div>
+    <div class="l-txt" id="ltxt">Initialising</div>
+  </div>
+
+  <div id="cdot"></div>
+  <div id="cring"></div>
+
+  <nav id="nav">
+    <a href="#hero" class="nlogo">PREETHAM<em>.DEV</em></a>
+    <ul class="nlinks">
+      <li><a href="#about" class="nl" data-s="about">About</a></li>
+      <li><a href="#education" class="nl" data-s="education">Education</a></li>
+      <li><a href="#skills" class="nl" data-s="skills">Skills</a></li>
+      <li><a href="#projects" class="nl" data-s="projects">Projects</a></li>
+      <li><a href="#timeline" class="nl" data-s="timeline">Journey</a></li>
+      <li><a href="#contact" class="nl" data-s="contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:14px">
+      <span class="nst"><span class="ndot"></span>Open to Internships</span>
+      <div class="tt-wrap">
+        <span class="tt-label" id="tt-label">Dark</span>
+        <button id="theme-toggle" aria-label="Toggle theme" title="Toggle dark / light mode">
+          <div class="tt-track">
+            <div class="tt-moon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/>
+              </svg>
+            </div>
+            <div class="tt-sun">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="tt-knob"></div>
+        </button>
+      </div>
+      <a href="#contact" class="ncta">Let's Talk</a>
+    </div>
+    <button class="nbtn" id="nbtn" aria-label="menu">
+      <span class="nb"></span><span class="nb"></span><span class="nb"></span>
+    </button>
+  </nav>
+
+  <div class="mob" id="mob">
+    <div class="mob-links">
+      <a href="#about" class="mlink">About</a>
+      <a href="#education" class="mlink">Education</a>
+      <a href="#skills" class="mlink">Skills</a>
+      <a href="#projects" class="mlink">Projects</a>
+      <a href="#timeline" class="mlink">Journey</a>
+      <a href="#contact" class="mlink">Contact</a>
+    </div>
+    <div class="mob-ft">
+      <a href="https://www.linkedin.com/in/preetham404/" target="_blank" rel="noopener" class="mob-s">LinkedIn</a>
+      <a href="https://github.com/Preetham404" target="_blank" rel="noopener" class="mob-s">GitHub</a>
+      <a href="#contact" class="mob-s" style="color:var(--accent)">Let's Talk →</a>
+    </div>
+  </div>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-num">04</div>
+
+    <div class="hero-circle">
+      <div class="hc-haze"></div>
+      <div class="hc-pulse-ring"></div>
+      <div class="hc-pulse-ring"></div>
+      <div class="hc-pulse-ring"></div>
+      <div class="hc-orbit-outer"></div>
+      <div class="hc-comet hc-comet-a"></div>
+      <div class="hc-comet hc-comet-b"></div>
+      <div class="hc-orbit-inner"></div>
+      <div class="hc-comet hc-comet-c"></div>
+      <div class="hc-comet hc-comet-d"></div>
+      <div class="hc-arc-border"></div>
+      <div class="hc-arc-border-2"></div>
+      <div class="hero-circle-inner">
+        <img
+          src="assets/images/My Passport Photo-photoaidcom-greyscale.png"
+          alt="Preetham Shetty"
+        />
+      </div>
+      <div class="hero-circle-label">
+        <span class="hero-circle-dot"></span>
+        <span>Available for Internship</span>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-kicker">CS Engineering · MITE Mangalore · MERN Stack</div>
+      <h1 class="hero-title">
+        <div class="t1">PREETHAM</div>
+        <div class="t2">SHETTY.</div>
+      </h1>
+      <div class="hero-meta">
+        <p class="hero-desc">
+          <strong>MERN Stack Developer</strong> building modern, scalable web applications.
+          CS Engineering student at MITE, Mangalore — shipping real products, not just code.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-prim">View Projects ↗</a>
+          <a href="assets/images/Resume_Preetham_Shetty.pdf" target="_blank" class="btn-ghost">Download CV →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item">MERN Stack Developer</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">React · Node.js · MongoDB</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">CS Student @ MITE</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">WanderStay — Live on Render</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">CGPA 8.7</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">SAP Hackfest 2025</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Open to Internships</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">MERN Stack Developer</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">React · Node.js · MongoDB</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">CS Student @ MITE</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">WanderStay — Live on Render</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">CGPA 8.7</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">SAP Hackfest 2025</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Open to Internships</span><span class="marquee-sep">✦</span>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="intro-stat rv">
+      <div class="is-num">8.7</div>
+      <div class="is-label">CGPA Score</div>
+    </div>
+    <div class="intro-stat rv rv-d1">
+      <div class="is-num">3<span>+</span></div>
+      <div class="is-label">Projects Built</div>
+    </div>
+    <div class="intro-stat rv rv-d2">
+      <div class="is-num">10<span>+</span></div>
+      <div class="is-label">Technologies</div>
+    </div>
+    <div class="intro-stat rv rv-d3">
+      <div class="is-num">1</div>
+      <div class="is-label">Live App Deployed</div>
+    </div>
+  </div>
+
+  <section class="projects" id="projects">
+    <div class="projects-head rv">
+      <div>
+        <div class="section-tag">Selected Work</div>
+        <h2 class="section-title">Things I've<br><em>Built.</em></h2>
+      </div>
+      <div class="proj-count">03</div>
+    </div>
+
+    <div class="proj-list">
+
+      <div class="pcard rv">
+        <div class="pcard-media">
+          <img src="assets/images/Screenshot 2026-03-16 165958.png"
+            alt="WanderStay — Airbnb-inspired platform">
+          <div class="pcard-live">● Live on Render</div>
+          <div class="pcard-num">01</div>
+        </div>
+        <div class="pcard-info">
+          <div class="pcard-meta">
+            <span class="pcard-year">2025</span>
+            <span class="pcard-type">Full-Stack Web App</span>
+          </div>
+          <h3 class="pcard-name">WanderStay</h3>
+          <p class="pcard-desc">
+            An Airbnb-inspired property rental platform. Full CRUD, user authentication,
+            Cloudinary image uploads, interactive Mapbox maps, and a reviews system —
+            built and deployed end-to-end.
+          </p>
+          <div class="pcard-tags">
+            <span>MongoDB</span><span>Express.js</span><span>Node.js</span>
+            <span>EJS</span><span>Cloudinary</span><span>Mapbox</span><span>Passport.js</span>
+          </div>
+          <div class="pcard-links">
+            <a href="https://wanderstay-5aiw.onrender.com/" target="_blank" rel="noopener" class="btn-p">View Live ↗</a>
+            <a href="https://github.com/Preetham404/WanderStay" target="_blank" rel="noopener" class="btn-g">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pcard flip rv">
+        <div class="pcard-media">
+          <img src="assets/images/Screenshot 2026-03-16 174129.png" alt="Spotify Clone">
+          <div class="pcard-num">02</div>
+        </div>
+        <div class="pcard-info">
+          <div class="pcard-meta">
+            <span class="pcard-year">2024</span>
+            <span class="pcard-type">Frontend</span>
+          </div>
+          <h3 class="pcard-name">Spotify Clone</h3>
+          <p class="pcard-desc">
+            A pixel-perfect clone of Spotify's web interface. Responsive layouts with sidebar
+            navigation, main content area, and a fully functional bottom music player —
+            sharpening front-end precision and CSS mastery.
+          </p>
+          <div class="pcard-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+          <div class="pcard-links">
+            <a href="https://github.com/Preetham404/Spotify_Clone" target="_blank" rel="noopener" class="btn-g">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pcard rv">
+        <div class="pcard-media">
+          <img src="assets/images/dual Axis.jpeg"
+            alt="Dual-Axis Solar Tracker">
+          <div class="pcard-num">03</div>
+        </div>
+        <div class="pcard-info">
+          <div class="pcard-meta">
+            <span class="pcard-year">2024</span>
+            <span class="pcard-type">IoT / Hardware</span>
+          </div>
+          <h3 class="pcard-name">Dual-Axis Solar Tracker</h3>
+          <p class="pcard-desc">
+            Designed and programmed a 360° dual-axis tracking system for efficient renewable energy
+            harvesting. Automatically aligns solar panels with the sun using servo motors and LDR sensors.
+          </p>
+          <div class="pcard-tags">
+            <span>Arduino UNO</span><span>C / C++</span><span>IoT</span>
+            <span>Servo Motors</span><span>LDR Sensors</span>
+          </div>
+          <div class="pcard-links">
+            <a href="https://github.com/Preetham404" target="_blank" rel="noopener" class="btn-g">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+
+    <div class="about-left rv">
+      <div class="about-photo-index">01 / About</div>
+      <div class="about-photo-frame">
+        <div class="about-photo-wrap">
+          <img src="assets/images/My Passport Photo.png" alt="Preetham Shetty">
+          <div class="about-photo-overlay"></div>
+        </div>
+      </div>
+      <div class="about-photo-label">
+        <div class="about-pill about-pill-accent">
+          <span class="about-photo-dot"></span>
+          Open to Internships
+        </div>
+        <div class="about-pill">
+          Mangaluru, Karnataka
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right rv rv-d1">
+      <div class="about-eyebrow">About Me</div>
+      <h2 class="about-heading">
+        Building things<br>
+        that actually <em>work.</em>
+      </h2>
+      <p class="about-body">
+        I'm <strong>Preetham Shetty</strong> — a Computer Science Engineering student at
+        <strong>MITE, Mangaluru</strong> who specialises in the <strong>MERN stack</strong>.
+        I care about writing clean, purposeful code and shipping products end-to-end,
+        not just prototypes.<br><br>
+        When I'm not building, I'm studying systems, competing in national-level hackathons,
+        or exploring what the next version of the web looks like.
+      </p>
+      <div class="about-traits">
+        <span class="about-trait">Full-Stack Dev</span>
+        <span class="about-trait">MERN Stack</span>
+        <span class="about-trait">Problem Solver</span>
+        <span class="about-trait">CS Student</span>
+        <span class="about-trait">CGPA 8.7</span>
+      </div>
+      <div class="about-divider"></div>
+      <div class="about-actions">
+        <a href="#contact" class="btn-prim">Get in Touch →</a>
+        <a href="assets/images/Resume_Preetham_Shetty.pdf " target="_blank" rel="noopener" class="btn-ghost">Download CV ↗</a>
+        <a href="https://github.com/Preetham404" target="_blank" rel="noopener" class="btn-ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/preetham404/" target="_blank" rel="noopener" class="btn-ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="education" id="education">
+    <div class="edu-head rv">
+      <div class="section-tag">Academic Background</div>
+      <h2 class="section-title">Where I <em>Studied.</em></h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card rv">
+        <div class="edu-badge">B.E — Computer Science</div>
+        <div class="edu-year">2023 — Present</div>
+        <div class="edu-inst">MITE, Mangaluru</div>
+        <div class="edu-dept">Computer Science & Engineering</div>
+        <p class="edu-body">Data Structures & Algorithms · Operating Systems · DBMS · Computer Networks · Software Engineering · Web Development · OOP with Java</p>
+        <div class="edu-score">CGPA <strong>8.7</strong> · Mangaluru, Karnataka</div>
+      </div>
+      <div class="edu-card rv rv-d1">
+        <div class="edu-badge edu-badge--b">Higher Secondary — PUC</div>
+        <div class="edu-year">2021 — 2023</div>
+        <div class="edu-inst">Alva's PU College</div>
+        <div class="edu-dept">Science — Physics, Chemistry, Maths</div>
+        <p class="edu-body">Strong mathematics and analytical foundation that directly feeds into software engineering, algorithm design, and systems thinking.</p>
+        <div class="edu-score">Score <strong>91.8%</strong> · Moodbidri, Karnataka</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="skills-head rv">
+      <div class="section-tag">Technical Arsenal</div>
+      <h2 class="section-title">What I <em>Build With.</em></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block rv">
+        <div class="sk-cat">Frontend</div>
+        <div class="sk-items">React · HTML5 · CSS3 · JavaScript · EJS · Bootstrap</div>
+      </div>
+      <div class="skill-block rv rv-d1">
+        <div class="sk-cat">Backend</div>
+        <div class="sk-items">Node.js · Express.js · REST APIs · MVC Architecture · Passport.js</div>
+      </div>
+      <div class="skill-block rv rv-d2">
+        <div class="sk-cat">Database</div>
+        <div class="sk-items">MongoDB · Mongoose · SQL · MySQL</div>
+      </div>
+      <div class="skill-block rv rv-d3">
+        <div class="sk-cat">Tools & Platforms</div>
+        <div class="sk-items">Git · GitHub · Cloudinary · Mapbox · Render · VS Code</div>
+      </div>
+      <div class="skill-block rv">
+        <div class="sk-cat">Languages</div>
+        <div class="sk-items">JavaScript · Java · C++ · Python · C</div>
+      </div>
+      <div class="skill-block rv rv-d1">
+        <div class="sk-cat">Currently Learning</div>
+        <div class="sk-items"><strong>TypeScript · React Advanced · Next.js · Docker · System Design</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline" id="timeline">
+    <div class="tl-head rv">
+      <div class="section-tag">Achievements & Milestones</div>
+      <h2 class="section-title">The Journey <em>So Far.</em></h2>
+    </div>
+
+    <div class="tl-wrap" id="tlwrap">
+      <div class="tl-line"></div>
+      <div class="tl-prog-track" id="tltrack">
+        <div class="tl-prog" id="tlprog"></div>
+      </div>
+      <div class="tl-tip" id="tltip"></div>
+
+      <div class="te te-left" id="te0">
+        <div class="te-left-col">
+          <div class="te-card">
+            <div class="te-year-bg">2024</div>
+            <div class="te-meta">
+              <span class="te-date">2023 — Present</span>
+              <span class="te-badge edu">Education</span>
+            </div>
+            <div class="te-org">MITE, Mangaluru</div>
+            <div class="te-role">B.E. Computer Science & Engineering</div>
+            <p class="te-body">Pursuing Computer Science Engineering with a CGPA of 8.7. Actively building real-world projects while engaging in national-level competitions and open-source contributions.</p>
+            <div class="te-tags"><span>CGPA 8.7</span><span>CS & Engg</span><span>2nd Year</span></div>
+          </div>
+        </div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-empty"></div>
+      </div>
+
+      <div class="te te-right" id="te1">
+        <div class="te-empty"></div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-right-col">
+          <div class="te-card">
+            <div class="te-year-bg">2024</div>
+            <div class="te-meta">
+              <span class="te-badge cert">IoT / Hardware</span>
+              <span class="te-date">2024</span>
+            </div>
+            <div class="te-org">Dual-Axis Solar Tracker</div>
+            <div class="te-role">Embedded Systems Project</div>
+            <p class="te-body">Designed and built a 360° dual-axis solar tracking system that automatically aligns solar panels with the sun using Arduino, servo motors, and LDR sensors — maximising energy efficiency.</p>
+            <div class="te-tags"><span>Arduino UNO</span><span>C / C++</span><span>IoT</span><span>Servo Motors</span><span>LDR</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="te te-left" id="te2">
+        <div class="te-left-col">
+          <div class="te-card">
+            <div class="te-year-bg">2025</div>
+            <div class="te-meta">
+              <span class="te-date">2025</span>
+              <span class="te-badge hack">Hackathon</span>
+            </div>
+            <div class="te-org">SAP Hackfest 2025</div>
+            <div class="te-role">National Level — Regional Round</div>
+            <p class="te-body">Selected to compete in the Regional Round of SAP Hackfest 2025 — one of India's most prestigious enterprise technology competitions for engineering students.</p>
+            <div class="te-tags"><span>✦ National Level</span><span>Regional Round</span><span>SAP</span></div>
+          </div>
+        </div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-empty"></div>
+      </div>
+
+      <div class="te te-right" id="te3">
+        <div class="te-empty"></div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-right-col">
+          <div class="te-card">
+            <div class="te-year-bg">2025</div>
+            <div class="te-meta">
+              <span class="te-badge live">Mini Project</span>
+              <span class="te-date">2025</span>
+            </div>
+            <div class="te-org">Spotify Clone</div>
+            <div class="te-role">Frontend Development</div>
+            <p class="te-body">Built a pixel-perfect clone of Spotify's web UI — responsive layouts, sidebar navigation, and a fully functional music player. Sharpened CSS precision and DOM manipulation skills.</p>
+            <div class="te-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="te te-left" id="te4">
+        <div class="te-left-col">
+          <div class="te-card">
+            <div class="te-year-bg">2025</div>
+            <div class="te-meta">
+              <span class="te-date">2025</span>
+              <span class="te-badge live">Mini Project</span>
+            </div>
+            <div class="te-org">Simon Says Game</div>
+            <div class="te-role">Interactive Web Game</div>
+            <p class="te-body">Developed a classic Simon Says memory game with increasing difficulty levels, sound feedback, and animated UI — a fun deep-dive into game logic and JavaScript event handling.</p>
+            <div class="te-tags"><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Game Logic</span></div>
+          </div>
+        </div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-empty"></div>
+      </div>
+
+      <div class="te te-right" id="te5">
+        <div class="te-empty"></div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-right-col">
+          <div class="te-card">
+            <div class="te-year-bg">2025</div>
+            <div class="te-meta">
+              <span class="te-badge hack">Hackathon</span>
+              <span class="te-date">2025</span>
+            </div>
+            <div class="te-org">Code for Innovex 2025</div>
+            <div class="te-role">Top 15 Team — 24-Hour Hackathon</div>
+            <p class="te-body">Competed in a gruelling 24-hour hackathon and finished in the top 15 teams — a testament to rapid prototyping, teamwork under pressure, and real-world problem-solving.</p>
+            <div class="te-tags"><span>◈ Top 15</span><span>24 Hours</span><span>Team Work</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="te te-left" id="te6">
+        <div class="te-left-col">
+          <div class="te-card">
+            <div class="te-year-bg">2026</div>
+            <div class="te-meta">
+              <span class="te-date">2026</span>
+              <span class="te-badge hack">Competition</span>
+            </div>
+            <div class="te-org">Ayush Habba 2026</div>
+            <div class="te-role">Selected for 2nd Round</div>
+            <p class="te-body">Cleared the first round and was selected for the second round of Ayush Habba 2026 — a competitive technical event that recognises innovation and engineering excellence.</p>
+            <div class="te-tags"><span>▲ 2nd Round</span><span>Technical Event</span><span>2026</span></div>
+          </div>
+        </div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-empty"></div>
+      </div>
+
+      <div class="te te-right" id="te7">
+        <div class="te-empty"></div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-right-col">
+          <div class="te-card">
+            <div class="te-year-bg">2026</div>
+            <div class="te-meta">
+              <span class="te-badge cert">Open Source</span>
+              <span class="te-date">Jan — Mar 2026</span>
+            </div>
+            <div class="te-org">SWoC 2026</div>
+            <div class="te-role">Open Source Contributor</div>
+            <p class="te-body">Actively contributed to open-source projects as part of Script Winter of Code 2026 over three months — reviewing codebases, submitting PRs, and collaborating with the global dev community.</p>
+            <div class="te-tags"><span>Open Source</span><span>Git</span><span>Collaboration</span><span>3 Months</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="te te-left" id="te8">
+        <div class="te-left-col">
+          <div class="te-card">
+            <div class="te-year-bg">2026</div>
+            <div class="te-meta">
+              <span class="te-date">2026</span>
+              <span class="te-badge live">Major Project</span>
+            </div>
+            <div class="te-org">WanderStay</div>
+            <div class="te-role">Full-Stack Web App — Live on Render</div>
+            <p class="te-body">Built and deployed an Airbnb-inspired property rental platform with user authentication, Cloudinary image uploads, interactive Mapbox maps, and full CRUD for listings and reviews.</p>
+            <div class="te-tags"><span>MongoDB</span><span>Express</span><span>Node.js</span><span>Cloudinary</span><span>Mapbox</span></div>
+          </div>
+        </div>
+        <div class="te-spine"><div class="te-dot"></div></div>
+        <div class="te-empty"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-bg"></div>
+    <div class="contact-kicker rv">Let's Build Something</div>
+    <h2 class="contact-title rv">Get in<br><em>Touch.</em></h2>
+    <p class="contact-sub rv">Open to internships, freelance projects, and interesting conversations about technology. I typically respond within 24 hours.</p>
+
+    <div class="cform rv">
+      <form action="https://formspree.io/f/mreyykea" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject (e.g. Internship Opportunity)">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message ↗</button>
+      </form>
+      <p class="form-note">Or reach me directly ↓</p>
+    </div>
+
+    <div class="cemail rv" id="emailcopy" title="Click to copy">preethamshetty5353@gmail.com</div>
+    <div class="csoc rv">
+      <a href="https://www.linkedin.com/in/preetham404/" target="_blank" rel="noopener" class="soc">LinkedIn /</a>
+      <a href="https://github.com/Preetham404" target="_blank" rel="noopener" class="soc">GitHub /</a>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2025 Preetham Shetty</div>
+    <div style="color:var(--dim);display:flex;align-items:center;gap:8px">
+      <span style="color:var(--accent)">●</span> MERN Stack Developer · MITE, Mangaluru
+    </div>
+    <div>Designed & Built by me</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
